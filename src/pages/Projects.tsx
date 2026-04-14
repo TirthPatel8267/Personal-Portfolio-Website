@@ -15,23 +15,14 @@ interface Project {
 
 // ✅ REAL PROJECT DATA
 const projectsData: Project[] = [
-  {
-    id: "eventify",
-    title: "Eventify",
-    description: "Event booking platform like BookMyShow",
-    longDescription: "A full-stack event booking system where users can browse, book, and manage events easily.",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "/images/eventify.png",
-    liveUrl: "#",
-    githubUrl: "https://github.com/TirthPatel8267"
-  },
+  
   {
     id: "pixel",
     title: "Pixel n Plate",
     description: "Cafe + gaming platform",
     longDescription: "A modern cafe website with gaming zone and event booking features.",
     tags: ["React", "Tailwind"],
-    image: "/images/ewaste.png",
+    image: "/images/pixel&plate.png",
     liveUrl: "#",
     githubUrl: "https://github.com/TirthPatel8267"
   },
@@ -45,16 +36,6 @@ const projectsData: Project[] = [
     liveUrl:"https://ewaste-management-system-tau.vercel.app",
     githubUrl: "https://github.com/TirthPatel8267"
   },
-  {
-    id: "dashboard",
-    title: "Power BI Dashboard",
-    description: "Data analytics dashboard",
-    longDescription: "Interactive dashboards built using Power BI for business insights.",
-    tags: ["Power BI", "SQL"],
-    image: "/images/dashboard.png",
-    liveUrl: "#",
-    githubUrl: "https://github.com/TirthPatel8267"
-  }
 ];
 
 // 🔥 CARD COMPONENT (same premium)
@@ -65,7 +46,13 @@ const ProjectCard = ({ project, onClick }: any) => {
       onClick={onClick}
       className="cursor-pointer rounded-3xl overflow-hidden glass"
     >
-      <img src={project.image} className="w-full h-52 object-cover" />
+    <div className="relative group">
+  <img 
+    src={project.image} 
+    className="w-full h-52 object-cover transition duration-500 group-hover:scale-110"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+</div>
       <div className="p-6">
         <h3 className="text-white text-xl font-bold">{project.title}</h3>
         <p className="text-slate-400 text-sm">{project.description}</p>

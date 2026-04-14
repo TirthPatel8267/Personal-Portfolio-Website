@@ -192,9 +192,9 @@ const Footer = () => {
           © 2026 Tirth Patel. Built with Passion & Precision.
         </p>
         <div className="flex items-center gap-6">
-          <a href="#" className="text-slate-500 hover:text-white transition-colors"><Github size={20} /></a>
-          <a href="#" className="text-slate-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
-          <a href="#" className="text-slate-500 hover:text-white transition-colors"><Mail size={20} /></a>
+          <a href="https://github.com/tirthpatel8267" className="text-slate-500 hover:text-white transition-colors"><Github size={20} /></a>
+          <a href="https://www.linkedin.com/in/tirthpatel8267" className="text-slate-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
+          <a href="mailto:tirthpatel8267@gmail.com" className="text-slate-500 hover:text-white transition-colors"><Mail size={20} /></a>
         </div>
       </div>
     </footer>

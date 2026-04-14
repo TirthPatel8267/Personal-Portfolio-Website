@@ -14,16 +14,7 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    id: "eventify",
-    title: "Eventify",
-    longDescription:
-      "Eventify is an event booking platform similar to BookMyShow where users can explore events, book tickets, and manage bookings easily.",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "/images/eventify.png",
-    liveUrl: "#",
-    githubUrl: "https://github.com/TirthPatel8267"
-  },
+  
   {
     id: "pixel",
     title: "Pixel n Plate",
