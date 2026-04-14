@@ -49,7 +49,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center text-center pt-20">
       <div>
-        <h1 className="text-6xl md:text-8xl font-bold text-white mb-6">
+        <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white mb-6">
           Tirth <span className="text-cyan-400">Patel</span>
         </h1>
 

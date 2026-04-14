@@ -165,7 +165,7 @@ const Navbar = () => {
               <Link 
                 key={link.name} 
                 to={link.href} 
-                className={`text-3xl font-bold uppercase tracking-[0.2em] ${location.pathname === link.href ? 'text-cyan-500 neon-glow' : 'text-slate-300'}`}
+                className={`text-2xl md:text-3xl font-bold uppercase tracking-widest md:tracking-[0.2em] ${location.pathname === link.href ? 'text-cyan-500 neon-glow' : 'text-slate-300'}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}

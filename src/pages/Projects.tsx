@@ -64,8 +64,8 @@ const ProjectCard = ({ project, onClick }: any) => {
 // 🔥 MODAL
 const ProjectModal = ({ project, onClose }: any) => {
   return (
-    <motion.div className="fixed inset-0 bg-black/80 flex items-center justify-center p-6 z-50">
-      <div className="bg-black p-8 rounded-xl max-w-3xl w-full">
+    <motion.div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4 md:p-6 z-[80]">
+      <div className="bg-black p-6 md:p-8 rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto">
         <button onClick={onClose} className="float-right text-white">
           <X />
         </button>
