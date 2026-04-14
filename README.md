@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 Tirth Patel - Portfolio Website
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website!
 
-This contains everything you need to run your app locally.
+## 👨‍💻 About Me
+I am a B.Tech ICT student passionate about Web Development and Data Analytics.  
+I build modern, fast, and user-friendly applications.
 
-View your app in AI Studio: https://ai.studio/apps/68193e89-622e-4a01-8f12-1d160ed9b200
+## 🔥 Projects
+- Eventify – Event Booking Platform  
+- Pixel n Plate – Cafe + Gaming Website  
+- E-Waste Management System  
+- Power BI Dashboard  
 
-## Run Locally
+## 🛠️ Tech Stack
+- React.js
+- TypeScript
+- Tailwind CSS
+- Node.js (Basics)
+- Power BI & SQL
 
-**Prerequisites:**  Node.js
+## 🌐 Live Website
+👉 https://your-vercel-link.vercel.app
 
+## 📬 Contact
+- GitHub: https://github.com/TirthPatel8267  
+- LinkedIn: https://www.linkedin.com/in/tirth-patel-4884b028b  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+⭐ If you like this project, give it a star!
